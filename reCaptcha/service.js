@@ -7,7 +7,7 @@ jQuery(document).ready(function($) {
 
     $.ajax({
       method: "POST",
-      url: "https://gwenmaker.site/service.ajax.php",
+      url: "https://whatsthetea.info/service.ajax.php",
       data: { 'g-recaptcha-response': response },
     })
       .done(function(msg) {

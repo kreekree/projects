@@ -9,12 +9,7 @@ $lang = 'en';
 // the following origins are allowed to use this service
 // (we accept requests only if the Origin header contains only those white-listed origins)
 $allowed_http_origins = array(
-  "https://gwenmaker.site",
-  // running Hugo server locally
-  "http://localhost",
-  "http://99.46.185.21",
-  "http://18.191.17.104",
-  "2400:cb00:2048:1::681b:84d6:80",
+  "https://whatsthetea.info",
   
 );
 $http_origin = $_SERVER['HTTP_ORIGIN'];

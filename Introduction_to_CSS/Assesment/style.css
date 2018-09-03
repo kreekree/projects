@@ -1,0 +1,102 @@
+/* General page styles */
+
+body {
+    margin: 0;
+}
+
+html {
+    font-family: 'Helvetica neue', Arial, 'sans serif';
+    font-size: 10px;
+    background-color: #ccc;
+
+}
+
+/* Selectors to be matched up with rulesets
+
+22
+.card article img
+
+21
+.card footer
+
+22
+.card header
+
+20
+.card
+
+/* Rulesets to be matched with selectors */
+
+.card {
+    width: 35em;
+    height: 22em;
+    margin: 5em auto;
+    background-color: red;
+    border: 0.2em solid black;
+    border-radius: 1.5em;
+}
+
+.card header {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0));
+    border-radius: 0 0 1.5em 1.5em;
+}
+
+.card footer {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.1));
+    border-radius: 0 0 1.5em 1.5em;
+}
+
+.card img {
+    max-height: 100%;
+    float: right;
+}
+
+header, footer {
+   padding: 1em;
+   height: 3em;
+}
+
+article {
+    height: 12em;
+    background-color: rgba(0,0,0,0.2);
+}
+
+article p {
+   padding: 1em;
+   color: rgba(255, 255, 255, 0.9);
+}
+
+h2 {
+    margin: 0;
+    font-size: 2em;
+    line-height: 1em;
+}
+
+p {
+    margin: 0;
+}
+
+footer p {
+  font-size: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
